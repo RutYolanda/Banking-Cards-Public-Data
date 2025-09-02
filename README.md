@@ -1,4 +1,4 @@
-# Technical-Test---Banking-Cards-Public-Data
+Banking-Cards-Public-Data
 
 1. Data Exploration
 ```
