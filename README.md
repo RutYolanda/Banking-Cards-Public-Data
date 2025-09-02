@@ -1,4 +1,23 @@
-Banking-Cards-Public-Data
+Banking Case 
+
+On this case, there are three public banking data used: users, cards, and transactions. A banking company want to know about their customer spending behaviour analysis to improve their business programs based on data. Additionally, they also want to conduct fraud investigation. Surprisingly, although there are no clear tangible data led to fraud, theare are some suspicious data happened, resulting the need of a dashboard to monitoring both users spending and fraud symptoms.
+
+Analytics Results:
+1. In 7 days, average transaction value is $160.15, with on average almost 11 transaction per user. In detail, each user has around 3 transactions per day.
+2. The majority of users are categorized in low-income people with annual income under $40,000.  This group accounted for the largest share of transactions and transaction amounts. However, this group has a small average value per transactions compared to other groups.
+3. From mcc data,  groceries & supermarkets, foods, and service stations was the top categories by number of transactions. These was top three for the majority of users except the high-income people which had toll & fees and  wire transfers & money orders as their top categories.
+4. The detailed transactions table shows that most of users with high credit scores and transactions volume was from lower middle-income groups and carry a high level of debt.
+5. The tables show suspicious transactions. The first one is used for monitoring high-value transactions at unusual hours. For example: At the first row, we can suspect user 171 for made a transaction which value almost 21 times his average transaction value at 3 am.
+6. The second table shows suspicious transactions in 2 distant locations within minutes. For example: user 1827 made 2 different transactions in NV and CA (271 miles, taking around 4 hours and 21 minutes to drive) just in 2 minutes.
+
+Actionable insights:
+1. Prioritize offers to get younger users, who are more productive and have higher consumption levels.
+2. Due to a high share of consumptive transactions trend (high transactions but small average value for daily needs) by lower-middle people who carry a notable amount of debt, the company cost and risks of credit failure could potentially increase over time. The company should consider the debt history of the user before issuing a credit card and approving the credit limit.
+3. The company should make fraud prediction models based on suspicious transactions and give users warnings right after the suspicious transactions happen.
+
+SIMPLE LOOKER DASHBOARD: https://lookerstudio.google.com/s/gHVykxFuZc0
+
+SQL SCRIPTS:
 
 1. Data Exploration
 ```
