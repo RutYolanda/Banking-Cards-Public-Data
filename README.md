@@ -1,6 +1,6 @@
 Banking Case 
 
-On this case, there are three public banking data used: users, cards, and transactions. A banking company want to know about their customer spending behaviour analysis to improve their business programs based on data. Additionally, they also want to conduct fraud investigation. Surprisingly, although there are no clear tangible data led to fraud, theare are some suspicious data happened, resulting the need of a dashboard to monitoring both users spending and fraud symptoms.
+In this case, three public banking datasets are used: users, cards, and transactions. A banking company wants to analyze customer spending behavior to improve its business programs. Additionally, the company aims to conduct a fraud investigation. Although there is no clear evidence of fraud, some suspicious data patterns have been detected, creating the need for a dashboard to monitor both customer spending and potential fraud symptoms.
 
 Analytics Results:
 1. In 7 days, average transaction value is $160.15, with on average almost 11 transaction per user. In detail, each user has around 3 transactions per day.
